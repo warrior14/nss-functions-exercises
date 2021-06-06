@@ -82,10 +82,27 @@
 
 // PRACTICE : ADDITION
 
-const add = (num1, num2, num3) => {
-    const result = num1 + num2 + num3
-        return result
+// const add = (num1, num2, num3) => {
+//     const result = num1 + num2 + num3
+//         return result
+// }
+
+// const result = add(1,2,3)
+// console.log(result)
+
+
+
+
+
+// PRACTICE : SELF-DRIVING CARS
+
+const go = (direction, speed) => {
+    if (speed > 75 ) {
+        return `The car is moving ${direction} at ${speed} mph. SLOW DOWN!`
+    } else {
+        console.log(`The car is moving ${direction} at ${speed} mph.`)
+    }
 }
 
-const result = add(1,2,3)
-console.log(result)
+const car = go("diagonally", 40);
+console.log(car);
