@@ -1,4 +1,4 @@
-// Calcaulate age in dog years exercise
+// CALCULATE IN DOG YEARS
 
 // const calculateAgeInDogYears = (ageOfPerson) => {
 //     const ageInDogYears = ageOfPerson / 7
@@ -10,7 +10,11 @@
 // console.log(dogAge)
 
 
-// Calculate age in cat years exercise
+
+
+
+
+// CALCULATE IN CAT YEARS
 
 // const calculateAgeInCatYears = (ageOfHuman) => {
 //     const ageInCatYears = ageOfHuman / 5
@@ -21,7 +25,12 @@
 // const catAge = calculateAgeInCatYears(50)
 // console.log(catAge)
 
-// Calculation example
+
+
+
+
+// CALCULATION EXAMPLE
+
 // const addNumbers = (num1, num2) => {
 //     const result = num1 + num2
 //         return result
@@ -31,7 +40,13 @@
 // const results = addNumbers(5,10)
 // console.log(results);
 
-// Practice best in show
+
+
+
+
+
+
+// Practice: BEST IN SHOW
 
 // const favoriteBreed = (petBreed) => {
 //     if (petBreed === "meow") {
@@ -58,4 +73,19 @@
 // const bestGame = favoriteGame("COD")
 // console.log(bestGame);
 
+
+
+
+
+
+
+
 // PRACTICE : ADDITION
+
+const add = (num1, num2, num3) => {
+    const result = num1 + num2 + num3
+        return result
+}
+
+const result = add(1,2,3)
+console.log(result)
