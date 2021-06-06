@@ -94,6 +94,7 @@
 
 
 
+
 // PRACTICE : SELF-DRIVING CARS
 
 // const go = (direction, speed) => {
@@ -110,6 +111,8 @@
 
 
 
+
+
 // PRACTICE : EVEN OR ODDS
 
 // const evenOrOdd = (number) => {
@@ -122,3 +125,32 @@
 
 // const numbers = evenOrOdd(8)
 // console.log(numbers);
+
+
+
+
+
+
+// PRACTICE : DOUBLE FUNCTIONS 
+
+// const words = [
+//     "The", "killing", "complex", "houses",
+//     "married", "kittens", "and", "single",
+//     "soldiers", "and", "their", "kleptomaniacal",
+//     "families"
+// ]
+
+// const filteringKWords = () => {
+//     const filteredWords = words.filter((word) => {
+//         if (word.startsWith("k")) {
+//         } else {
+//             return word;
+//         }
+//     });
+
+//     const filteredString = filteredWords.join(" ")
+//     console.log(`${filteredString}`)
+// };
+
+
+// filteringKWords();
