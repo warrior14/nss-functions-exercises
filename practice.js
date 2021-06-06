@@ -1,4 +1,4 @@
-// CALCULATE IN DOG YEARS
+// PRACTICE : CALCULATE IN DOG YEARS
 
 // const calculateAgeInDogYears = (ageOfPerson) => {
 //     const ageInDogYears = ageOfPerson / 7
@@ -14,7 +14,7 @@
 
 
 
-// CALCULATE IN CAT YEARS
+// PRACTICE : CALCULATE IN CAT YEARS
 
 // const calculateAgeInCatYears = (ageOfHuman) => {
 //     const ageInCatYears = ageOfHuman / 5
@@ -29,7 +29,7 @@
 
 
 
-// CALCULATION EXAMPLE
+// PRACTICE : CALCULATION EXAMPLE
 
 // const addNumbers = (num1, num2) => {
 //     const result = num1 + num2
@@ -46,7 +46,7 @@
 
 
 
-// Practice: BEST IN SHOW
+// PRACTICE : BEST IN SHOW
 
 // const favoriteBreed = (petBreed) => {
 //     if (petBreed === "meow") {
@@ -96,13 +96,29 @@
 
 // PRACTICE : SELF-DRIVING CARS
 
-const go = (direction, speed) => {
-    if (speed > 75 ) {
-        return `The car is moving ${direction} at ${speed} mph. SLOW DOWN!`
-    } else {
-        console.log(`The car is moving ${direction} at ${speed} mph.`)
-    }
-}
+// const go = (direction, speed) => {
+//     if (speed > 75 ) {
+//         return `The car is moving ${direction} at ${speed} mph. SLOW DOWN!`
+//     } else {
+//         console.log(`The car is moving ${direction} at ${speed} mph.`)
+//     }
+// }
 
-const car = go("diagonally", 40);
-console.log(car);
+// const car = go("diagonally", 40);
+// console.log(car);
+
+
+
+
+// PRACTICE : EVEN OR ODDS
+
+// const evenOrOdd = (number) => {
+//     if (number % 2 === 0) {
+//         return 'even'
+//     } else {
+//         return 'odd'
+//     }
+// }
+
+// const numbers = evenOrOdd(8)
+// console.log(numbers);
